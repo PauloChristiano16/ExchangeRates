@@ -28,6 +28,8 @@
 		ECF1C6F22AE4966F001FDA1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1C6F12AE4966F001FDA1D /* Extensions.swift */; };
 		ECF1C6F42AE49EA6001FDA1D /* RateFluctuationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1C6F32AE49EA6001FDA1D /* RateFluctuationDetailView.swift */; };
 		ECF1C6F72AE4A003001FDA1D /* TimeRangeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1C6F62AE4A003001FDA1D /* TimeRangeEnum.swift */; };
+		ECF1C6F92AE4A69F001FDA1D /* BaseCurrencyFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1C6F82AE4A69F001FDA1D /* BaseCurrencyFilterView.swift */; };
+		ECF1C6FB2AE4A6E7001FDA1D /* CurrencySelectorFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1C6FA2AE4A6E7001FDA1D /* CurrencySelectorFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		ECF1C6F12AE4966F001FDA1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ECF1C6F32AE49EA6001FDA1D /* RateFluctuationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuationDetailView.swift; sourceTree = "<group>"; };
 		ECF1C6F62AE4A003001FDA1D /* TimeRangeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangeEnum.swift; sourceTree = "<group>"; };
+		ECF1C6F82AE4A69F001FDA1D /* BaseCurrencyFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyFilterView.swift; sourceTree = "<group>"; };
+		ECF1C6FA2AE4A6E7001FDA1D /* CurrencySelectorFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectorFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,8 @@
 				ECF1C6C02AE457C0001FDA1D /* ContentView.swift */,
 				ECF1C6EF2AE490DA001FDA1D /* RatesFluctuationView.swift */,
 				ECF1C6F32AE49EA6001FDA1D /* RateFluctuationDetailView.swift */,
+				ECF1C6F82AE4A69F001FDA1D /* BaseCurrencyFilterView.swift */,
+				ECF1C6FA2AE4A6E7001FDA1D /* CurrencySelectorFilterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				ECF1C6DF2AE469DE001FDA1D /* RatesHistoricalObject.swift in Sources */,
 				ECF1C6D52AE45B63001FDA1D /* CurrencyRouter.swift in Sources */,
 				ECF1C6D02AE459E2001FDA1D /* RatesApi.swift in Sources */,
+				ECF1C6F92AE4A69F001FDA1D /* BaseCurrencyFilterView.swift in Sources */,
 				ECF1C6EA2AE4806C001FDA1D /* RatesHistoricalDataProvider.swift in Sources */,
 				ECF1C6DD2AE468F1001FDA1D /* CurrencySymbolObject.swift in Sources */,
 				ECF1C6E12AE46DC3001FDA1D /* RatesStore.swift in Sources */,
@@ -287,6 +294,7 @@
 				ECF1C6F72AE4A003001FDA1D /* TimeRangeEnum.swift in Sources */,
 				ECF1C6E82AE477C0001FDA1D /* RatesFluctuationDataProvider.swift in Sources */,
 				ECF1C6E32AE473B2001FDA1D /* CurrencyStore.swift in Sources */,
+				ECF1C6FB2AE4A6E7001FDA1D /* CurrencySelectorFilterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
