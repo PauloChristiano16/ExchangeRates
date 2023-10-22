@@ -75,7 +75,11 @@ extension Date {
         dateFormatter.dateFormat = dateFormat
         return dateFormatter.string(from: self)
     }
+        func toString(dateFormat: String = "yyyy-MM-dd") -> String {
+            return formatter(to: dateFormat)
+    }
 }
+
 
 extension UINavigationController {
 
